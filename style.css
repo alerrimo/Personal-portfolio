@@ -1,7 +1,12 @@
 
 @font-face {
-    font-family: "Youtube Sans Medium";
-    src: url("youtube-sans-medium.ttf");
+    font-family: "SF Pro Regular";
+    src: url("SFProDisplay-Regular.ttf");
+}
+
+@font-face{
+    font-family:"SF Pro Bold";
+    src:url("SFProDisplay-Bold.ttf");
 }
 
 *{
@@ -24,7 +29,7 @@ a{
 }
 
 body{
-    font-family: "Youtube Sans Medium";
+    font-family: "SF Pro Regular";
     background: linear-gradient(90deg, hsla(217, 22%, 40%, 1) 0%, hsla(186, 51%, 57%, 1) 100%);
 }
 
@@ -98,7 +103,8 @@ nav{
 }
 
 header{
-    position: relative;
+    font-family: "SF Pro Bold";
+    position: relative; 
     padding-top: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
